@@ -14,15 +14,16 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
-a:focus, a:hover {
-	font-style: italic;
-}
 header {
 	border-bottom: 3px solid #931420;
     padding-top: 1.5em;
     padding-bottom: 2em;
     background-image: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
+a:focus, a:hover {
+	font-style: italic;
+}
+
 header h2 {
 	font-size: 175%;
 	color: #800000;
@@ -95,13 +96,14 @@ section h2 {
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
-section p {
-	padding-bottom: .5em;
-}
 section blockquote {
 	padding: 0 2em;
 	font-style: italic;
 }
+section p {
+	padding-bottom: .5em;
+}
+
 section ul {
 	padding: 0 0 .25em 1.25em;
 	list-style-type: circle;
